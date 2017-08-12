@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Educación</title>
+  </head>
+  <body>
+<svg width="200" height="200">
+  <image xlink:href="images/logo.svg" x="0" y="0" width="200" height="200">
+</svg>
+<h1>Hoja de Vida</h1>
+
+<h2>Datos Personales</h2>
+<h3>Nombres: Lina Marcela</h3>
+<h3>Apellidos: Palomino Castañeda</h3>
+<h3>Fecha y Lugar de Nacimiento: 4 noviembre 1987 - Cali</h3>
+
+<h2>Enlaces de Menú</h2>
+<ul>
+  <li><a href="index.html">Inicio</a></li>
+  <li><a href="educacion.html">Educación</a></li>
+  <li><a href="experiencia.html">Experiencia</a></li>
+</ul>
+
+<h2>Educación</h2>
+  <table border="1">
+<tr>
+<td><strong>Año</strong></td>
+<td><strong>Institución</strong></td>
+<td><strong>Lugar</strong></td>
+<td><strong>¿Culminó?</strong></td>
+</tr>
+<tr>
+  <td>2014</td>
+  <td>Bureau Veritas Centro Universitario </td>
+  <td>Madrid</td>
+  <td>Si</td>
+</tr>
+<tr>
+  <td>2009</td>
+  <td>Universidad de Antioquia</td>
+  <td>Medellín(Antioquia)</td>
+  <td>Si</td>
+</tr>
+  </table>
+<h3>Agregar Estudios</h3>
+  <form>
+<label for="ano">Año</label>
+  <select class="" name="ano">
+<option value="1">2014</option>
+<option value="2">2015</option>
+<option value="3">2016</option>
+<option value="4">2017</option>
+  </select>
+  <p><label for="institucion">Institución</label>
+    <input type="text" name="institucion" required>
+  </p>
+
+  <p><label for="lugar">Lugar</label>
+    <textarea name="lugar" rows="8" cols="80"></textarea>
+  </p>
+  <p><label for="culmino">¿Culminó?</label>
+  <br><input type="radio"name="culmino">Si
+  <br><input type="radio"name="culmino">No</p>
+
+  <p><input type="submit" value="Enviar"></p>
+  </form>
+
+  <footer>
+    <br><a href="mailto:linamarcelapc@hotmail.com?subject=feedback">Email: linamarcelapc@hotmail.com</a>
+    <br>Telefono: 300 6130634
+    <br>Carrera 25B No.46-70 Palmira-Valle-Colombia
+  </footer>
+    </body>
+</html>
